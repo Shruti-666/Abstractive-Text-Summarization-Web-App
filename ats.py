@@ -30,3 +30,6 @@ for word in doc:
 
 max_freq = max(word_freq.values())
 
+for word in word_freq.keys():
+    word_freq[word] = word_freq[word]/max_freq
+
