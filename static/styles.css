@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+
+.jumbotron{
+    
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: rgb(106, 94, 94);
+    color: rgb(0, 0, 0);
+    font-family: 'Ubuntu',sans-serif;
+    
+}
+
+.jumbotron h1{
+    font-weight: bolder;
+    text-align: center;
+}
+
+.jumbotron .lead{
+    font-weight: 100;
+    
+}
+
+form{
+    margin-top: 30px;
+    border-radius: 50px;
+}
+
+.container-analyze{
+    margin: 30px;
+    display: flex;
+    font-family: 'Ubuntu',sans-serif;
+}
+
+.original_title{
+    background: rgb(171, 169, 167);
+    padding: 10px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    
+}
+.summary_title{
+    margin-left: 70px;
+    padding: 10px;
+    background: rgb(171, 169, 167);
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
+
+.summary{
+    display: flex;
+    flex-direction: row;
+}
+
+.originalTxt{
+    padding: 10px;
+    
+}
