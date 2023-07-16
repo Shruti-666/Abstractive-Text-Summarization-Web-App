@@ -11,9 +11,41 @@
     
 }
 
+.container button{
+    margin-left: 45%;
+    margin-top: 30px;
+    background-color:rgb(106, 94, 94); 
+    border: solid rgb(106, 94, 94);
+    font-weight: 600%;
+    font-size: 20px;
+}
+
+.container button:hover{
+   background: none;
+   border: solid rgb(106, 94, 94);
+   color: rgb(106, 94, 94);
+}
+
+.container .btn-original{
+    background-color: red;
+    border: solid red;
+    color: white;
+    margin-top: 5px;
+    margin-left: 2px;
+}
+.container .btn-summary{
+    color: white;
+    margin-top: 5px;
+    margin-left: 500px;
+    background-color: green;
+    border: solid green;
+
+}
+
 .jumbotron h1{
     font-weight: bolder;
     text-align: center;
+    text-shadow: 2px 2px 2px white;
 }
 
 .jumbotron .lead{
@@ -27,7 +59,8 @@ form{
 }
 
 .container-analyze{
-    margin: 30px;
+    padding-left: 170px;
+    margin-top: 20px;
     display: flex;
     font-family: 'Ubuntu',sans-serif;
 }
@@ -41,7 +74,7 @@ form{
     
 }
 .summary_title{
-    margin-left: 70px;
+    margin-left:250px;
     padding: 10px;
     background: rgb(171, 169, 167);
     font-weight: 700;
@@ -56,5 +89,16 @@ form{
 
 .originalTxt{
     padding: 10px;
+    width: 600px;
+    border: solid black;
+    border-radius: 20px;
     
+}
+.summarytxt{
+    
+    padding: 10px;
+    width: 600px;
+    margin-left: 80px;
+    border: solid black;
+    border-radius: 20px;
 }

@@ -12,22 +12,27 @@
 
 </head>
 <body>
-  
+  <div class="container">
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
           <h1 class="display-4">Abstractive Text Summarisation</h1>
-          <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+          <!-- <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p> -->
         </div>
       </div>
-
+  </div>
       <div class="container-analyze">
-        <p class="original_title class col-sm-4">Original Text</p>
-        <p class="summary_title class col-sm-4">Summary</p>
+        <p class="original_title class col-sm-4">ORIGINAL TEXT</p>
+        <p class="summary_title class col-sm-4">SUMMARY</p>
       </div >
 
       <div class="container summary">
         <p class="originalTxt col-sm-6">{{original_text}}</p>
         <p class="summarytxt col-sm-6">{{summary}}</p>
+      </div>
+
+      <div class="container">
+        <button class="btn btn-original" type="submit" >Word Count : {{len_orig_txt}}</button>
+        <button class="btn btn-summary" type="submit" >Word Count : {{len_summary}}</button>
       </div>
     
     
